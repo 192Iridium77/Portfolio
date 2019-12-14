@@ -13,19 +13,19 @@
   </div>
   <div class="flex flex-col w-full text-center">
     <div class="border-b border-accent opacity-25"></div>
-    <h3 class="tracking-widest hover:bg-accent py-4 text-xl">
+    <h3 class="tracking-widest hover:bg-accent py-8 text-xl">
       About
     </h3>
     <div class="border-b border-accent opacity-25"></div>
-    <h3 class="tracking-widest hover:bg-accent py-4 text-xl">
+    <h3 class="tracking-widest hover:bg-accent py-8 text-xl">
       Testimonials
     </h3>
     <div class="border-b border-accent opacity-25"></div>
-    <h3 class="tracking-widest hover:bg-accent py-4 text-xl">
+    <h3 class="tracking-widest hover:bg-accent py-8 text-xl">
       Projects
     </h3>
     <div class="border-b border-accent opacity-25"></div>
-    <h3 class="tracking-widest hover:bg-accent py-4 text-xl">
+    <h3 class="tracking-widest hover:bg-accent py-8 text-xl">
       Skills
     </h3>
     <div class="border-b border-accent opacity-25"></div>
