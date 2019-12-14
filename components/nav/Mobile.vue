@@ -11,7 +11,7 @@
     </div>
     <div class="flex justify-end w-1/2"
          @click="$emit('close')">
-      <i-close class="h-8 text-accent"></i-close>
+      <i-close class="h-6 text-accent"></i-close>
     </div>
   </div>
   <div class="flex flex-col w-full text-center">
