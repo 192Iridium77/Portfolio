@@ -1,7 +1,10 @@
 <template>
 <div class="flex p-8 bg-secondary justify-between items-center">
   <nuxt-link to="/">
-    <i-logo class="text-accent h-12"></i-logo>
+    <!-- <i-logo class="text-accent h-12"></i-logo> -->
+    <img class="w-12"
+         src="~/static/Logo.png"
+         alt="Matthew Martin">
   </nuxt-link>
   <div class="w-1/2 flex justify-end items-center"
        @click="openedMenu">

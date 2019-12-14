@@ -3,7 +3,10 @@
   <div class="flex items-center p-8">
     <div class="w-1/2 justify-start items-center">
       <nuxt-link to="/">
-        <i-logo class="text-accent h-12"></i-logo>
+        <!-- <i-logo class="text-accent h-12"></i-logo> -->
+        <img class="w-12"
+             src="~/static/Logo.png"
+             alt="Matthew Martin">
       </nuxt-link>
     </div>
     <div class="flex justify-end w-1/2"
