@@ -1,21 +1,16 @@
 <template>
 <div>
   <div class="p-8">
-    <div class="w-full pb-4 md:w-1/2">
-      <h2 class="title text-center text-accent pb-2">
+    <div class="w-full pb-4 lg:w-1/2">
+      <h2 class="text-center text-accent pb-2">
         About
       </h2>
     </div>
-    <p>
+    <p class="md:text-center">
       I write clean, maintainable code. I enjoy solving complex problems and playing guitar.
-    </p>
-    <br>
-    <p>
-      I'm currently leading a team of developers on two projects.
-    </p>
-    <br>
-    <p>
-      All with different levels of skill on projects pushing the boundaries of tech in the Mobile Apps space such as Nativescipt.
+      <br>
+      <br>
+      I'm currently leading a team of developers on two projects. Each with different levels of skill on projects pushing the boundaries of tech in the Mobile Apps space such as Nativescipt.
     </p>
   </div>
   <div class="hero-image w-full h-64 md:w-1/2"

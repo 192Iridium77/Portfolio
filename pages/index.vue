@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
-    <about></about>
-    <testimonials></testimonials>
-    <projects></projects>
-  </div>
+<div>
+  <about></about>
+  <testimonials></testimonials>
+  <projects></projects>
+</div>
 </template>
 
 <script>
