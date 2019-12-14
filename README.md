@@ -1,6 +1,6 @@
 # portfolio
 
-> portfolio
+> Matt Martin&#39;s Portfolio for Sydney :D
 
 ## Build Setup
 

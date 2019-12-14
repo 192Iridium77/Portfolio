@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "portfolio",
+  "description": "Matt Martin&#39;s Portfolio for Sydney :D",
   "author": "Matt Martin",
   "private": true,
   "scripts": {
@@ -19,12 +19,12 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
-    "@nuxtjs/vuetify": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^1.2.0",
     "@vue/test-utils": "^1.0.0-beta.27",
     "ava": "^2.2.0",
     "babel-plugin-module-resolver": "^3.2.0",
     "browser-env": "^3.2.5",
+    "nodemon": "^1.18.9",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
     "require-extension-hooks-vue": "^2.0.0"
