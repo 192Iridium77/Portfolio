@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8">
+  <div class="p-8 bg-secondary">
     <h2 class="text-accent text-center pb-8">Projects</h2>
     <ul id="categories" class="clr">
       <li>
