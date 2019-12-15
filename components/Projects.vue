@@ -1,493 +1,123 @@
 <template>
-  <div>
+  <div class="p-8">
+    <h2 class="text-accent text-center pb-8">Projects</h2>
     <ul id="categories" class="clr">
+      <li>
+        <div class="bg-hendercare flex justify-center items-center absolute">
+          <div
+            class="background-image"
+            style="background-image: url('./hendercareBackground.jpg')"
+          ></div>
+          <div class="scrim z-10"></div>
+          <img class="logo z-20" src="~/static/hendercareLogo.svg" />
+        </div>
+      </li>
+      <li>
+        <div class="bg-black flex justify-center items-center absolute">
+          <div
+            class="background-image xcon"
+            style="background-image: url('./xconBackground.jpg')"
+          ></div>
+          <div class="scrim z-10"></div>
+          <img class="logo z-20" src="~/static/xconLogo.png" />
+        </div>
+      </li>
+
       <li class="pusher"></li>
       <li>
-        <div class="bg-hendercare">
-          <!-- <img
-            src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg"
-            alt=""
-          /> -->
-          <div>
-            <img src="~/static/hendercareLogo.svg" class="w-full h-full" />
-          </div>
-          <h1>Hendercare</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
+        <div class="bg-black flex justify-center items-center absolute">
+          <div
+            class="background-image"
+            style="background-image: url('./sitedBackground.png')"
+          ></div>
+          <div class="scrim z-10"></div>
+          <img class="logo w-16 z-20" src="~/static/sitedLogo.png" />
         </div>
       </li>
+
       <li>
-        <div>
-          <div>
-            <img
-              src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg"
-              alt=""
-            />
-          </div>
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
+        <div class="bg-black flex justify-center items-center absolute">
+          <div
+            class="background-image"
+            style="background-image: url('https://img.samuseum.sa.gov.au/w-755.h-550.f-jpg/qk39g4c5h')"
+          ></div>
+          <div class="scrim z-10"></div>
+          <sam-logo class="logo z-20" width="20" height="20"></sam-logo>
         </div>
       </li>
+
       <li>
-        <div>
-          <img
-            src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
+        <div class="bg-black flex justify-center items-center absolute">
+          <div
+            class="background-image"
+            style="background-image: url('./beaumontsBackground.jpg')"
+          ></div>
+          <div class="scrim z-10"></div>
+          <img class="logo z-20 h-20" src="~/static/beaumontLogo.svg" />
         </div>
       </li>
-      <li>
-        <div>
-          <img
-            src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <!-- <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
+
+      <!-- <li>
+        <div class="bg-black flex justify-center items-center">
+          <img>
+            <div></div>
+          </img>
+          <h1>SA Museum</h1>
           <p>Some sample text about the article this hexagon leads to</p>
         </div>
       </li> -->
-
       <!-- <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
+        <div class="bg-black flex justify-center items-center">
+          <img>
+            <div></div>
+          </img>
+          <h1>SA Museum</h1>
           <p>Some sample text about the article this hexagon leads to</p>
         </div>
       </li>
       <li>
-        <div>
-          <img
-            src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
+        <div class="bg-black flex justify-center items-center">
+          <img>
+            <div></div>
+          </img>
+          <h1>SA Museum</h1>
           <p>Some sample text about the article this hexagon leads to</p>
         </div>
       </li>
       <li class="pusher"></li>
       <li class="pusher"></li>
+
       <li>
-        <div>
-          <img
-            src="https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
+        <div class="bg-black flex justify-center items-center">
+          <img>
+            <div></div>
+          </img>
+          <h1>SA Museum</h1>
           <p>Some sample text about the article this hexagon leads to</p>
         </div>
       </li>
       <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm3.staticflickr.com/2878/10944255073_973d2cd25c.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img
-            src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
-          <p>Some sample text about the article this hexagon leads to</p>
-        </div>
-      </li>
-      <li class="pusher"></li>
-      <li>
-        <div>
-          <img
-            src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg"
-            alt=""
-          />
-          <h1>This is a title</h1>
+        <div class="bg-black flex justify-center items-center">
+          <img>
+            <div></div>
+          </img>
+          <h1>SA Museum</h1>
           <p>Some sample text about the article this hexagon leads to</p>
         </div>
       </li> -->
     </ul>
   </div>
 </template>
+
+<script>
+import SamLogo from "~/components/SamLogo";
+
+export default {
+  components: {
+    SamLogo
+  }
+};
+</script>
 
 <style scoped>
 #categories {
@@ -552,13 +182,39 @@
   -webkit-backface-visibility: hidden;
 }
 
-/* HEX CONTENT */
-#categories li div {
+#categories li div div {
   left: -100%;
   right: -100%;
   width: auto;
   height: 100%;
   margin: 0 auto;
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* .background-image.xcon {
+    background-size: 350px; 
+} */
+
+.scrim {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  width: 40%;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+li div:hover .logo {
+  opacity: 1;
 }
 
 #categories div h1,
@@ -602,7 +258,6 @@
 }
 
 /* HOVER EFFECT  */
-
 #categories li div:hover h1 {
   bottom: 50%;
   padding-bottom: 10%;
@@ -611,36 +266,5 @@
 #categories li div:hover p {
   top: 50%;
   padding-top: 10%;
-}
-#fork {
-  position: fixed;
-  top: 0;
-  left: 0;
-  color: #000;
-  text-decoration: none;
-  border: 1px solid #000;
-  padding: 0.5em 0.7em;
-  margin: 1%;
-  transition: color 0.5s;
-  overflow: hidden;
-}
-#fork:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 130%;
-  height: 100%;
-  /* background: #000; */
-  z-index: -1;
-  transform-origin: 0 0;
-  transform: translateX(-100%) skewX(-45deg);
-  transition: transform 0.5s;
-}
-#fork:hover {
-  color: #fff;
-}
-#fork:hover:before {
-  transform: translateX(0) skewX(-45deg);
 }
 </style>
